@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post One</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/utilities.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <header class="hero blog">
+      <div id="navbar" class="navbar top">
+        <h1 class="logo">
+          <span class="text-primary"><i class="fas fa-book-open"></i> Edge</span
+          >Ledger
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#cases">Cases</a></li>
+            <li><a href="index.html#blog">Blog</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="content">
+        <h1>Blog</h1>
+      </div>
+    </header>
+    <main>
+      <section class="post">
+        <h2>Blog Post One</h2>
+        <p class="meta">
+          <i class="fas fa-user"></i>
+          Posted by <strong>Rana Rashid</strong> | December 25 2020
+        </p>
+        <img src="/image_resources/blog/blog1.jpg" alt="" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae culpa
+          repudiandae dolor doloremque odio amet numquam perferendis. A porro
+          doloremque aspernatur, reprehenderit corrupti dolore ducimus quos fuga
+          dolores illo exercitationem.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam magni
+          amet rem facilis vero inventore hic ad assumenda in perspiciatis nam
+          quos, mollitia, nesciunt deleniti dolores doloribus, dignissimos
+          repellendus a natus repellat minima? Enim officia repellat rem nemo.
+          Voluptate veritatis aliquam fugiat nam aut corporis eius voluptatibus
+          qui incidunt sunt facilis suscipit deleniti cumque itaque, molestiae
+          et est officia voluptas.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eius
+          ducimus ratione quisquam harum sapiente vero unde fugit ad corrupti
+          dolore, similique beatae minus nesciunt nihil amet iusto dolorem
+          recusandae repellendus a cumque quas? Praesentium, fuga dicta sint
+          inventore laboriosam corporis odit veniam nam eius provident quam,
+          iste harum soluta.
+        </p>
+      </section>
+    </main>
+    <footer class="footer bg-dark">
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+        <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+      </div>
+      <p>Copyright &copy; 2020 - EdgeLedger</p>
+    </footer>
+    <script>
+      const navbar = document.getElementById("navbar");
+      window.onscroll = function () {
+        if (window.pageYOffset > 100) {
+          navbar.classList.remove("top");
+        } else {
+          navbar.classList.add("top");
+        }
+      };
+    </script>
+  </body>
+</html>
